@@ -1,0 +1,12 @@
+create table supplier(
+sup_id varchar(10) constraint pk5 primary key,
+sup_nm varchar(20) not null,
+sup_mob number(13) not null,
+sup_location varchar(50) not null,
+sup_state varchar(10) not null,
+sup_city varchar(10) not null,
+sup_pincode number(6) not null,
+com varchar(30) not null,
+sup_email varchar(30) not null,
+sup_gstno varchar(15) not null
+status varchar(15));

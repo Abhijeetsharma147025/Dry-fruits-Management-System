@@ -1,0 +1,5 @@
+create table sold_pdet(
+s_ono varchar(10) references sell_details(s_ono),
+p_id varchar(10) references product (p_id),
+quant number(6,2) not null,
+amount number(8,2) not null);

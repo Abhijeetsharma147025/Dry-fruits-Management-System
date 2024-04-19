@@ -1,0 +1,8 @@
+ create table customer(
+   c_id varchar(10) constraint pk009 primary key,
+   c_nm varchar(30)not null,
+   c_mob varchar(10)not null,
+   c_add varchar(50)null,
+   c_gender varchar(15)not null,
+   c_email varchar(30)null
+dues number(8,2));

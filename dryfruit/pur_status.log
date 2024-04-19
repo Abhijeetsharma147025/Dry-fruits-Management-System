@@ -1,0 +1,23 @@
+Line 43: Class RichTextLib.RichTextBox of control txt8 was not a loaded control class.
+Line 629: Class MSComCtl2.DTPicker of control dt2 was not a loaded control class.
+Line 655: Class MSComCtl2.DTPicker of control dt1 was not a loaded control class.
+Line 49: The property name _ExtentX in txt8 is invalid.
+Line 50: The property name _ExtentY in txt8 is invalid.
+Line 51: The property name _Version in txt8 is invalid.
+Line 53: The property name TextRTF in txt8 is invalid.
+Line 636: The property name _ExtentX in dt2 is invalid.
+Line 637: The property name _ExtentY in dt2 is invalid.
+Line 638: The property name _Version in dt2 is invalid.
+Line 649: The property name CalendarBackColor in dt2 is invalid.
+Line 650: The property name CustomFormat in dt2 is invalid.
+Line 651: The property name Format in dt2 is invalid.
+Line 652: The property name UpDown in dt2 is invalid.
+Line 653: The property name CurrentDate in dt2 is invalid.
+Line 671: The property name _ExtentX in dt1 is invalid.
+Line 672: The property name _ExtentY in dt1 is invalid.
+Line 673: The property name _Version in dt1 is invalid.
+Line 684: The property name CalendarBackColor in dt1 is invalid.
+Line 685: The property name CustomFormat in dt1 is invalid.
+Line 686: The property name Format in dt1 is invalid.
+Line 687: The property name UpDown in dt1 is invalid.
+Line 688: The property name CurrentDate in dt1 is invalid.

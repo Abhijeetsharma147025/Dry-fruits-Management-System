@@ -1,0 +1,11 @@
+create table product(
+p_id varchar(10) constraint pk1 primary key,
+p_nm varchar(20) not null,
+p_type char(10) not null,
+p_comp char(20) not null,
+p_wt decimal(5,2) not null,
+p_gst decimal(4,2) not null,
+p_rate decimal(6,2) not null,
+p_unit varchar (5) not null,
+p_hsn varchar(8) not null);
+

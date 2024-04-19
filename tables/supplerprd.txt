@@ -1,0 +1,4 @@
+create table supplierprd(
+Sup_id varchar(10) references supplier (sup_id),
+p_id varchar(10)  references product(p_id),
+rate number(6,2) );

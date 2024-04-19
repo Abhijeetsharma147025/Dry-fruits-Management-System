@@ -1,0 +1,6 @@
+create table stock(
+    rno varchar(5) constraint pk007 primary key,
+    p_id varchar(10) references product(p_id),
+    avl_qty number(5) not null,
+    min_qty number(5) not null,
+    max_qty number(5) not null);

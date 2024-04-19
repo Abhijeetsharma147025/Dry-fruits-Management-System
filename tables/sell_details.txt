@@ -1,0 +1,12 @@
+create table sell_details(
+s_ono varchar(10) constraint pk008 primary key,
+s_date date not null,
+c_id varchar2(10) references customer (C_ID),
+nop number(3) not null,
+s_pm varchar(10) not null,
+chqno varchar(15) not null,
+s_total number(8,2) not null,
+s_twt number (8,2) not null,
+c_prevdues number (8,2) ,
+s_amtpd number(8,2) not null);
+

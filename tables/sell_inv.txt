@@ -1,0 +1,5 @@
+create table sell_inv(
+s_ono varchar(10) references sell_details(s_ono),
+inv_date date not null,
+amount number(8,2) not null,
+inv_no varchar(10) not null);

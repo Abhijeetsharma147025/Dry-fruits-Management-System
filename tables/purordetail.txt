@@ -1,0 +1,13 @@
+create table purordetail(
+pur_orderno varchar(10) constraint pk2 primary key,
+pur_orderdate date not null,
+sup_id varchar(10) references supplier(sup_id),
+noofproduct number (2) not null,
+modeofpayment varchar (8) not null,
+chqno varchar(16),
+totalamount number (8,2) not null,
+totalwithtax number (9,2) not null,
+advamount number (9,2) not null,
+duesamount number (8,2) not null
+postatus varchar(25));
+

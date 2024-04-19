@@ -1,0 +1,11 @@
+create table ordetails(
+invoiceno varchar(10)not null,
+invdate date  not null,
+orderno varchar(10)not null,
+challanno varchar(10)not null,
+noofprd number(2) not null,
+pymtby varchar(10) not null,
+chqno varchar(20) not null,
+withtaxamt number (8,2) not null,
+amtpaidinadv number(8,2) not null,
+netamt number (8,2) not null);

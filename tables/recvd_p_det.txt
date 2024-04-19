@@ -1,0 +1,14 @@
+create table recvd_p_det(
+pur_orderno varchar(10)not null,
+sno number (2) not null,
+p_id varchar(10)not null,
+p_nm varchar(40)not null,
+p_typ varchar(30) not null,
+p_rate number (6,2) not null,
+qty number (4) not null,
+price number(9,2) not null,
+cgstper number (4,2) not null,
+cgstamt number (6,2) not null,
+sgstper number (4,2) not null,
+sgstamt number (6,2) not null,
+total number (9,2) not null);
